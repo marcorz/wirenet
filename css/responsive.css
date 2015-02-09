@@ -1,0 +1,205 @@
+@media screen and (min-width : 767px) { 
+	
+	footer .centro .contactenos { 
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		width: 30%;
+		margin-right: 5%;
+	}
+	footer .centro .menu { 
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		width: 25%;
+	}
+	footer .centro .redessocial { 
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+		text-align: right;
+	}
+	footer .centro .redessocial .social {
+		margin: 0 0 0 5px;
+	}
+	header .centro_header {
+		text-align: center;
+		height: 40px;
+	}
+	header .centro_header .logo {
+		float: left;
+	}
+	header .centro_header .botonerasuperior {
+		float: right;
+	}
+	.contenido1 {
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.contenido1 .bloque {
+		display: inline-block;
+		vertical-align: top;
+		width: 24%;
+	} 
+	.contenido1 .bloque p {
+		margin: 0 auto;
+		width: 85%;
+	}
+	.contenido2 .centro .col {
+		display: inline-block;
+		vertical-align: top;
+		width: 46%;
+		margin: 0 1% 30px 1%;
+		padding-bottom: 0;
+	}
+	.contenido2 .centro .col .informacion p {
+		min-height: 130px;
+	}
+	.contenido3 .bloque {
+		display: inline-block;
+		vertical-align: top;
+		width: 46%;
+		margin: 0 1% 30px 1%;
+	}
+	.contenido3 .bloque_xc {
+		display: inline-block;
+		vertical-align: top;
+		width: 46%;
+		margin: 0 1% 30px 1%;
+	}
+	.contenido3 .bloque_xc .texto .cotizar,
+	.contenido3 .bloque_xc .texto .verplanes,
+	.contenido3 .bloque_xc .texto .contrato {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.contenido3 .bloque_xc3 {
+		display: inline-block;
+		vertical-align: top;
+		width: 28%;
+		margin: 0 1% 30px 1%;
+	}
+	.contenido3 .bloque_xc3 .texto .cotizar,
+	.contenido3 .bloque_xc3 .texto .verplanes,
+	.contenido3 .bloque_xc3 .texto .contrato {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.marcas .centro .logo {
+		width: 13%;
+		-webkit-transition: all 0.1s ease-in;
+	    -moz-transition: all 0.1s ease-in;
+	    -ms-transition: all 0.1s ease-in;
+	    -o-transition: all 0.1s ease-in;
+	    transition: all 0.1s ease-in;
+	}
+	.marcas .centro .logo:hover {
+		margin-top: -5px;
+		-webkit-transition: all 0.1s ease-in;
+	    -moz-transition: all 0.1s ease-in;
+	    -ms-transition: all 0.1s ease-in;
+	    -o-transition: all 0.1s ease-in;
+	    transition: all 0.1s ease-in;
+	}
+	.partner_contenido .partner1 {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 1%;
+		-webkit-transition: all 0.1s ease-in;
+	    -moz-transition: all 0.1s ease-in;
+	    -ms-transition: all 0.1s ease-in;
+	    -o-transition: all 0.1s ease-in;
+	    transition: all 0.1s ease-in;
+	}
+	.partner_contenido .partner1:hover {
+		margin-top: -5px;
+		margin-bottom: 5px;
+		-webkit-transition: all 0.1s ease-in;
+	    -moz-transition: all 0.1s ease-in;
+	    -ms-transition: all 0.1s ease-in;
+	    -o-transition: all 0.1s ease-in;
+	    transition: all 0.1s ease-in;
+	}
+	.partner_contenido .partner2 {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 1%;
+		-webkit-transition: all 0.1s ease-in;
+	    -moz-transition: all 0.1s ease-in;
+	    -ms-transition: all 0.1s ease-in;
+	    -o-transition: all 0.1s ease-in;
+	    transition: all 0.1s ease-in;
+	}
+	.partner_contenido .partner2:hover {
+		margin-top: -5px;
+		margin-bottom: 5px;
+		-webkit-transition: all 0.1s ease-in;
+	    -moz-transition: all 0.1s ease-in;
+	    -ms-transition: all 0.1s ease-in;
+	    -o-transition: all 0.1s ease-in;
+	    transition: all 0.1s ease-in;
+	}
+	.trabajemos .centro {
+		text-align: center;
+	}
+	.trabajemos .centro .contacto {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.trabajemos .centro h3 {
+		width: 70%;
+		margin-right: 5%;
+		display: inline-block;
+		text-align: left;
+		vertical-align: top;
+	}
+}
+
+@media screen and (min-width : 1024px) { 
+
+	.contenido2 .centro .col {
+		width: 22%;
+		margin: 1%;
+	}
+	.contenido2 .centro .col .informacion p { 
+		min-height: 180px;
+	}
+}
+
+@media screen and (min-width : 1200px) { 
+
+	footer .centro,
+	.contenido1,
+	.contenido2 .centro,
+	.marcas .centro,
+	.trabajemos .centro { 
+		width: 1170px;
+	}
+	header .centro_header,
+	.container_linea .linea {
+		width: 1100px;
+	}
+	.contenido3 {
+		width: 1100px;
+	}
+	.contenido3 .parrafo {
+		width: 1100px;
+		margin: 0 auto 50px auto;  
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
